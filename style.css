@@ -1,0 +1,244 @@
+@media only screen and (max-width: 480px) {
+    .ending .btn-contact {
+        width:100%;
+        border-radius:0px;
+    }
+    .ending p {
+        visibility:hidden;
+    }
+    
+    
+    
+    .sub-box {
+        padding-bottom:10%;
+        display:block;
+        float:left;
+    }
+    
+    .header {
+        padding-bottom:5%;
+    }
+    
+    .header h1 {
+        box-shadow: 0 2px 2px #efefef;
+        text-align:Center;
+    }
+    
+    .header .social-sites {
+        position:absolute;
+        top:14%;
+        left:33%;
+    }
+}
+
+/*--------CUSTOM FONTS------ */
+@font-face {
+    font-family:opificio;
+    src: url(Opificio_regular.otf);
+}
+@font-face {
+    font-family:yahei;
+    src:url(chinese.msyh.ttf);
+}
+/*--------APPLIES TO ENTIRE WEBPAGE------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:arial;
+}
+/*------BACKGROUND COLOR FOR MAIN SECTIONS------ */
+body {
+    background-color:#34495e
+}
+
+.intro {
+    background-color:#fff;
+}
+
+.subscription {
+    background-color:#fff;
+}
+
+.ending {
+    
+    background-color:#fff
+}
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*------BUTTONS-------*/
+.btn:link,
+.btn:visited,/*general button class that applies to all buttons*/
+input
+{ 
+
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration:none;
+    margin-top:2px;
+
+}
+.btn-blue {
+    background-color:#3bafda;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-yellow {
+    background-color:#ffce54;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-contact {
+    background-color:8cc152;
+    color: #fff;
+    border-radius: 8px;
+    margin-bottom:30px;
+}
+/*------INTRO SECTION-------*/
+h1 {
+    font-family:opificio;
+    height:5%;
+    color:#FFF;
+    padding-left:10px;
+    padding-top:15px;
+    font-size:39.43px;
+}
+
+.social-sites
+{
+    float:right;
+    list-style:none;
+    margin-top:-55px;
+}
+.social-sites li {
+    display:inline-block;
+    padding: 0 10px 0;
+}
+.social-sites img {
+    height:3%;
+}
+
+.intro h2 {
+    padding-top:30px;
+    padding-left:10px;
+    font-size:36px;
+    font-weight:100;
+}
+
+
+.about-us {
+    padding-left:10px;
+    padding-top:30px;
+    height:auto;
+    font-size:14px;
+    
+}
+
+.facts {
+    padding-left:15%;
+    padding-top:30px;
+    font-family:yahei;
+    font-size:14px;
+    padding-bottom:30px;
+}
+
+.facts li {
+    margin:0 0 10px 0;   
+}
+
+/*------TABLES USED FOR SUBSCRIPTION SECTION-------*/
+ .price {
+    font-size:30px;
+    font-family:yahei;
+}
+.per-month {
+    font-size:14px;
+    font-family:yahei;
+}   
+.basic .sub-box {
+    background-color: #fff;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.basic .sub-box div {
+    padding: 15px;
+    background-color:#d7f1fa;
+}
+
+.basic .sub-box div:first-child {
+    background-color: #3bafda;
+    text-align:Center;
+    color:#fff;
+}
+
+.basic .sub-box div:last-child {
+    text-align: center;
+    border: 0;
+    background-color:#e6e9ed;
+}
+
+.basic .sub-box ul {
+    text-align:center;
+    list-style: none;
+}
+
+.unlimited .sub-box {
+    background-color: #fff;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.unlimited .sub-box div {
+    padding: 15px;
+    background-color:#fffaed;
+}
+
+.unlimited .sub-box div:first-child {
+    background-color: #ffce54;
+    text-align:Center;
+    color:#fff;
+}
+
+.unlimited .sub-box div:last-child {
+    text-align: center;
+    border: 0;
+    background-color:#e6e9ed;
+}
+
+.unlimited .sub-box ul {
+    text-align:center;
+    list-style: none;
+}
+/*------LEARN MORE SECTION-----*/
+.ending p {
+    text-align:center;
+    font-size:28px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+/*-------FOOTER------------*/
+footer {
+    height:50px;
+}
+.footer-nav {
+    text-align:center;
+    padding-top:20px;
+}
+.footer-nav li {
+    display:inline;
+    color:#fff;
+    font-size:14px;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited {
+    color:#fff;
+}
+
+

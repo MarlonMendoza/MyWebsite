@@ -1,4 +1,4 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
     .ending .btn-contact {
         width:100%;
         border-radius:0px;
@@ -27,9 +27,20 @@
     .header .social-sites {
         position:absolute;
         top:14%;
-        left:33%;
+        left:40%;
     }
 }
+
+@media only screen and (max-width: 550px)
+{
+     .header .social-sites {
+        position:absolute;
+        top:14%;
+        left:37%;
+    }
+}
+
+
 
 /*--------CUSTOM FONTS------ */
 @font-face {
